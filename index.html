@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>دستیار هوشمند طاها کریمی</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<header class="top">
+  <div class="avatar">ط‌ک</div>
+  <div class="top-info">
+    <h1>دستیار هوشمند طاها کریمی</h1>
+    <div class="status"><span class="dot"></span> آماده‌ی پاسخ‌گویی</div>
+  </div>
+  <nav class="top-links" aria-label="راه‌های ارتباطی">
+    <button id="code-btn" type="button" title="کد دسترسی" aria-label="کد دسترسی">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="8" cy="15" r="4"/><path d="M11 12 20 3M16 4l3 3M20 3l1 1"/></svg>
+    </button>
+    <a href="mailto:taha.01.karimi@gmail.com" title="ایمیل" aria-label="ارسال ایمیل">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 6h18v12H3z"/><path d="M3 7l9 6 9-6"/></svg>
+    </a>
+    <a href="tel:09026324574" title="تماس تلفنی" aria-label="تماس تلفنی">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 5c0 8 7 15 15 15l3-4-6-3-2 2c-2-1-4-3-5-5l2-2-3-6z"/></svg>
+    </a>
+    <a href="https://instagram.com/taha0246titi" target="_blank" rel="noopener" title="اینستاگرام" aria-label="پیج اینستاگرام">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg>
+    </a>
+  </nav>
+</header>
+
+<main class="chat-wrap">
+  <div id="chat" role="log" aria-live="polite"></div>
+</main>
+
+<div id="chips"></div>
+
+<div id="image-preview">
+  <img class="thumb" alt="پیش‌نمایش تصویر">
+  <span style="font-size:13px;color:var(--ink-soft)">تصویر آماده‌ی ارسال</span>
+  <button type="button" class="remove-image" title="حذف تصویر" aria-label="حذف تصویر">✕</button>
+</div>
+
+<footer class="composer">
+  <form id="composer-form">
+    <button id="attach-btn" type="button" title="پیوست عکس" aria-label="پیوست عکس">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 12.5V7a4 4 0 0 0-4-4h0a4 4 0 0 0-4 4v10a3 3 0 0 0 6 0V8"/></svg>
+    </button>
+    <input id="file-input" type="file" accept="image/*" hidden>
+    <input id="text-input" type="text" autocomplete="off" placeholder="پیامت رو بنویس…" aria-label="پیام">
+    <button id="send-btn" type="submit">ارسال</button>
+  </form>
+  <p class="fine-print">taha.01.karimi@gmail.com <span>·</span> 09026324574 <span>·</span> @taha0246titi</p>
+</footer>
+
+<script src="/script.js"></script>
+</body>
+</html>
